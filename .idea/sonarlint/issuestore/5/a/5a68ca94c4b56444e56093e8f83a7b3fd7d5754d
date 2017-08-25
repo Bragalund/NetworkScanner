@@ -1,0 +1,16 @@
+
+V
+squid:S106";Replace this usage of System.out or System.err by a logger.(—Ê“…8êíŒÜ+
+Asquid:S1166"%Either log or rethrow this exception.(´ú§â8êíŒÜ+
+Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8êíŒÜ+
+Asquid:S1166"%Either log or rethrow this exception.(ï­£Ä8êíŒÜ+
+Ysquid:S1854"=Remove this useless assignment to local variable "ipAddress".(±ÅÈİ8êíŒÜ+
+Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8êíŒÜ+
+ksquid:S1858"O"otherAddress" is already a string, there's no need to call "toString()" on it.(„¹™’8ÈêùŒÜ+
+ksquid:S1858"O"otherAddress" is already a string, there's no need to call "toString()" on it.(ŸÆÿØ8êíŒÜ+
+‰squid:S1319"mThe return type of this method should be an interface such as "Map" rather than the implementation "HashMap".(„µÄ8¡ûæŒÜ+
+Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8­øößÜ+
+Jsquid:S1481".Remove this unused "ipAddress" local variable.(±ÅÈİ8êíŒÜ+
+Asquid:S1166"%Either log or rethrow this exception.(»ªÁ¥8­øößÜ+
+bsquid:S1226"FIntroduce a new variable instead of reusing the parameter "ipAddress".(ß÷Şà8ç¢îŒÜ+
+squid:S1319"mThe return type of this method should be an interface such as "Map" rather than the implementation "HashMap".(Êêóùÿÿÿÿ8ÕÒ±ŒÜ+

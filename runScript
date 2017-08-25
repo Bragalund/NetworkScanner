@@ -1,0 +1,3 @@
+#!/bin/bash
+mvn clean package
+java -jar /home/bragalund/Documents/Javaprosjekter/EgneTestprosjekter/yourFriend/target/yourFrend-1.0-SNAPSHOT.jar
