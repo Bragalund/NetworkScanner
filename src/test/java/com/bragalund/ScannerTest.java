@@ -7,13 +7,13 @@ import java.util.Map;
 import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertTrue;
 
-public class NetworkScannerTest{
+public class ScannerTest {
 
   @Test
     public void findOtherDevicesOnNetwork(){
-      NetworkScanner networkScanner = new NetworkScanner();
+      Scanner scanner = new Scanner();
 
-     Map IPsOfOtherDevicesOnNetwork = networkScanner.findIPOfOtherDevicesOnNetwork();
+     Map IPsOfOtherDevicesOnNetwork = scanner.findIPOfOtherDevicesOnNetwork();
 
      assertNotNull(IPsOfOtherDevicesOnNetwork);
   }

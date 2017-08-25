@@ -11,11 +11,11 @@ import java.util.Scanner;
 import static java.lang.System.out;
 import static java.net.NetworkInterface.getNetworkInterfaces;
 
-public class LocalIPChooser {
+public class LocalhostFinder {
 
     private InetAddress inetAddress;
 
-    public LocalIPChooser() {
+    public LocalhostFinder() {
         this.inetAddress = null;
     }
 

@@ -5,7 +5,7 @@ import java.net.InetAddress;
 import java.net.UnknownHostException;
 import java.util.HashMap;
 
-public class NetworkScanner {
+public class Scanner {
     public HashMap<String, InetAddress> getAddresses() {
         return addresses;
     }
@@ -13,8 +13,8 @@ public class NetworkScanner {
     private HashMap<String, InetAddress> addresses = new HashMap<String, InetAddress>();
 
     public InetAddress getLocalIp() {
-        LocalIPChooser localIPChooser = new LocalIPChooser();
-        return localIPChooser.getInetAddress();
+        LocalhostFinder localhostFinder = new LocalhostFinder();
+        return localhostFinder.getInetAddress();
     }
 
     public HashMap<String, InetAddress> findIPOfOtherDevicesOnNetwork() {

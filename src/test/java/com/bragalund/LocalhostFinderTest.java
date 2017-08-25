@@ -1,7 +1,6 @@
 package com.bragalund;
 
 
-import junit.framework.TestCase;
 import org.junit.Test;
 
 import java.io.ByteArrayInputStream;
@@ -10,7 +9,7 @@ import java.net.InetAddress;
 
 import static org.junit.Assert.*;
 
-public class LocalIPChooserTest{
+public class LocalhostFinderTest {
 
     public void writeToSystem(String input) {
         InputStream in = new ByteArrayInputStream(input.getBytes());
@@ -19,30 +18,30 @@ public class LocalIPChooserTest{
 
     @Test
     public void testLocalInetAddress() {
-        LocalIPChooser localIPChooser = new LocalIPChooser();
-        InetAddress inetAddress = localIPChooser.getIPOfHostOnNetwork();
+        LocalhostFinder localhostFinder = new LocalhostFinder();
+        InetAddress inetAddress = localhostFinder.getIPOfHostOnNetwork();
         assertNotNull(inetAddress);
     }
 
     @Test
     public void testValidationOfUserIPInput() {
-        LocalIPChooser localIPChooser = new LocalIPChooser();
+        LocalhostFinder localhostFinder = new LocalhostFinder();
         String validInput = "192.168.0.12";
 
-        assertTrue(localIPChooser.validUserIP(validInput));
+        assertTrue(localhostFinder.validUserIP(validInput));
     }
 
     @Test
     public void testValidationOfUserIPInputWhenWrongInput() {
-        LocalIPChooser localIPChooser = new LocalIPChooser();
+        LocalhostFinder localhostFinder = new LocalhostFinder();
         String validInput = "132.168.0.12";
 
-        assertFalse(localIPChooser.validUserIP(validInput));
+        assertFalse(localhostFinder.validUserIP(validInput));
     }
 
     @Test
     public void testNoInternetWithCorrectInput() {
-        LocalIPChooser searcher = new LocalIPChooser();
+        LocalhostFinder searcher = new LocalhostFinder();
         String input = "192.168.0.12";
         writeToSystem(input);
 
@@ -54,10 +53,10 @@ public class LocalIPChooserTest{
 
     @Test
     public void testNoInternetWithQuit() {
-        LocalIPChooser localIPChooser = new LocalIPChooser();
+        LocalhostFinder localhostFinder = new LocalhostFinder();
         writeToSystem("q");
 
-        InetAddress answerInetAddress = localIPChooser.getIpFromUserInput();
+        InetAddress answerInetAddress = localhostFinder.getIpFromUserInput();
 
         assertNull(answerInetAddress);
     }
