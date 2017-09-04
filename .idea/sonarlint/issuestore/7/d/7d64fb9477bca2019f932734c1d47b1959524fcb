@@ -1,0 +1,34 @@
+
+[
+squid:S106";Replace this usage of System.out or System.err by a logger.(Ö«‚£úÿÿÿÿ8§‘ôóÛ+
+[
+squid:S106";Replace this usage of System.out or System.err by a logger.(»–åüøÿÿÿÿ8µ÷òÛ+
+ssquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(îĞÌòúÿÿÿÿ8Ã»áóÛ+
+V
+squid:S106";Replace this usage of System.out or System.err by a logger.(œõš8İ¢ÁòÛ+
+V
+squid:S106";Replace this usage of System.out or System.err by a logger.(¼¹ 8ËàæóÛ+
+Asquid:S1166"%Either log or rethrow this exception.(´ú§â8‚áÜóÛ+
+Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8Ö¡ñÛ+
+Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8‚áÜóÛ+
+Asquid:S1166"%Either log or rethrow this exception.(Ğ‘®õ8¹´ğÛ+
+squid:S1157"cReplace these toUpperCase()/toLowerCase() and equals() calls with a single equalsIgnoreCase() call.(š­Öß8ê±æŠÜ+
+Wsquid:S1147";Remove this call to "exit" or ensure it is really required.(¯á8ª©ß‹Ü+
+csquid:S1132"GMove the "q" string literal on the left side of this string comparison.(š­Öß8æåŠÜ+
+[
+squid:S106";Replace this usage of System.out or System.err by a logger.(“×·ôşÿÿÿÿ8Ù˜øñÛ+
+Asquid:S1166"%Either log or rethrow this exception.(öö£Ù8Ö¡ñÛ+
+Jsquid:S1066"/Merge this if statement with the enclosing one.(õ°x8Î÷íòÛ+
+Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8¹´ğÛ+
+[
+squid:S106";Replace this usage of System.out or System.err by a logger.(Óí«Íùÿÿÿÿ8®ŞÃòÛ+
+[
+squid:S106";Replace this usage of System.out or System.err by a logger.(Ğá¢Îÿÿÿÿÿ8ˆİßŠÜ+
+V
+squid:S106";Replace this usage of System.out or System.err by a logger.(°ï³8ÆªéóÛ+
+[
+squid:S106";Replace this usage of System.out or System.err by a logger.(Š¿¹„şÿÿÿÿ8‡«ØóÛ+
+[
+squid:S106";Replace this usage of System.out or System.err by a logger.(öÇ™Ìüÿÿÿÿ8‡«ØóÛ+
+[
+squid:S106";Replace this usage of System.out or System.err by a logger.(ĞÛîıÿÿÿÿ8‡«ØóÛ+

@@ -1,39 +1,0 @@
-
-V
-squid:S106";Replace this usage of System.out or System.err by a logger.(ñõ’‹8İ¢ÁòÛ+
-Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8Ö¡ñÛ+
-V
-squid:S106";Replace this usage of System.out or System.err by a logger.(¼¹ 8ËàæóÛ+
-Jsquid:S1066"/Merge this if statement with the enclosing one.(õ°x8Î÷íòÛ+
-Asquid:S1166"%Either log or rethrow this exception.(´ú§â8‚áÜóÛ+
-rsquid:S2275"Q%n should be used in place of \n to produce the platform-specific line separator.(å´–ùÿÿÿÿÿ8Ù˜øñÛ+
-V
-squid:S106";Replace this usage of System.out or System.err by a logger.(°ï³8ÆªéóÛ+
-[
-squid:S106";Replace this usage of System.out or System.err by a logger.(Óí«Íùÿÿÿÿ8®ŞÃòÛ+
-ssquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(îĞÌòúÿÿÿÿ8Ã»áóÛ+
-[
-squid:S106";Replace this usage of System.out or System.err by a logger.(ê£‚çùÿÿÿÿ8µ÷òÛ+
-[
-squid:S106";Replace this usage of System.out or System.err by a logger.(Ğá¢Îÿÿÿÿÿ8ˆİßŠÜ+
-[
-squid:S106";Replace this usage of System.out or System.err by a logger.(“×·ôşÿÿÿÿ8Ù˜øñÛ+
-Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8¹´ğÛ+
-squid:S1157"cReplace these toUpperCase()/toLowerCase() and equals() calls with a single equalsIgnoreCase() call.(š­Öß8ê±æŠÜ+
-[
-squid:S106";Replace this usage of System.out or System.err by a logger.(Ö«‚£úÿÿÿÿ8§‘ôóÛ+
-Asquid:S1166"%Either log or rethrow this exception.(öö£Ù8Ö¡ñÛ+
-Wsquid:S1147";Remove this call to "exit" or ensure it is really required.(¯á8ª©ß‹Ü+
-msquid:S2275"Q%n should be used in place of \n to produce the platform-specific line separator.(Ö‹®¥8­ùñÛ+
-msquid:S2275"Q%n should be used in place of \n to produce the platform-specific line separator.(áÁñÓ8û’üñÛ+
-Asquid:S1166"%Either log or rethrow this exception.(Ğ‘®õ8¹´ğÛ+
-csquid:S1132"GMove the "q" string literal on the left side of this string comparison.(š­Öß8æåŠÜ+
-[
-squid:S106";Replace this usage of System.out or System.err by a logger.(Š¿¹„şÿÿÿÿ8‡«ØóÛ+
-Asquid:S2275"%String contains no format specifiers.(áÁñÓ8û’üñÛ+
-msquid:S2275"Q%n should be used in place of \n to produce the platform-specific line separator.(¹‰Ó¶8™úñÛ+
-Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8‚áÜóÛ+
-[
-squid:S106";Replace this usage of System.out or System.err by a logger.(öÇ™Ìüÿÿÿÿ8‡«ØóÛ+
-[
-squid:S106";Replace this usage of System.out or System.err by a logger.(ĞÛîıÿÿÿÿ8‡«ØóÛ+

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/yourFriend.iml" filepath="$PROJECT_DIR$/yourFriend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NetworkScanner.iml" filepath="$PROJECT_DIR$/NetworkScanner.iml" />
     </modules>
   </component>
 </project>

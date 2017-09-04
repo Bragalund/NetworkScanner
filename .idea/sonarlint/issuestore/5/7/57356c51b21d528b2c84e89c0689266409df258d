@@ -1,0 +1,14 @@
+
+[
+squid:S106";Replace this usage of System.out or System.err by a logger.(ÿ²œØûÿÿÿÿ8Òš£Ğá+
+squid:S1319"mThe return type of this method should be an interface such as "Map" rather than the implementation "HashMap".(Ï¡ÎÙøÿÿÿÿ8¾å§Ñá+
+Asquid:S1166"%Either log or rethrow this exception.(´ú§â8Òš£Ğá+
+V
+squid:S106";Replace this usage of System.out or System.err by a logger.(‹ÕÓ“8ìãÇĞá+
+Asquid:S1166"%Either log or rethrow this exception.(ï­£Ä8Òš£Ğá+
+squid:S1319"mThe return type of this method should be an interface such as "Map" rather than the implementation "HashMap".(ŒŸşÿÿÿÿ8£­¥Îá+
+Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8Òš£Ğá+
+Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8Òš£Ğá+
+Ksquid:S1066"/Merge this if statement with the enclosing one.(ò½ìø8Òš£Ğá+
+V
+squid:S106";Replace this usage of System.out or System.err by a logger.(ºÖè¦8Òš£Ğá+
